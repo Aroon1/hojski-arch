@@ -9,6 +9,10 @@ $(document).foundation();
 require('style!css!sass!applicationStyles')
 
 ReactDOM.render(
-  <p>Boilerplate 3 Project</p>,
+  <p>Boilerplate 3 Project</p>
+  <Router history={hashHistory}>
+    <Route path="/" component={index.html}>
+    </Route>
+  </Router>,
   document.getElementById('app')
 );
