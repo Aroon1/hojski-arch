@@ -623,6 +623,23 @@ label.error{
   transition: all 0.3s;
 }
 
+  .verticalLine {
+    border-left-width: 3px;
+    border-left-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(#c5a47e), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(#c5a47e, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(#c5a47e, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image:
+      -o-linear-gradient(#c5a47e, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to bottom, #c5a47e, rgba(0, 0, 0, 0)) 1 100%;
+  border-left: thick solid ;
+  padding: 0.3em; 
+}  
+
 .brand{
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
